@@ -12,6 +12,7 @@ In this experiment, I used RPLidar-A1 and NVIDIA TX2 on-board camera. If you hav
 
 * ROS Kinetic
 * MATLAB
+* Both the ```Automatic Camera-Laser Calibration Toolbox``` and the ```Automatic Camera Calibration Toolbox``` from [here](http://www-personal.acfr.usyd.edu.au/akas9185/AutoCalib/index.html)
 
 
 
@@ -25,7 +26,7 @@ Second, take picture and also get lidar points(using rosbag).
 
 Third, change checker board's pose and repeat 1st and 2nd about 20 times.
 
-Fourth, do camera calibration using [matlab camera calibration toolbox](http://www.vision.caltech.edu/bouguetj/calib_doc/). You will get calib_Results.mat file.
+Fourth, do camera calibration using [matlab camera calibration toolbox](http://www-personal.acfr.usyd.edu.au/akas9185/AutoCalib/AutoCamDoc/index.html). You will get calib_Results.mat file.
 
 Fifth, using rosbag for transform point data as bin file.(using python ros nodes which are in prepare directory)
 
